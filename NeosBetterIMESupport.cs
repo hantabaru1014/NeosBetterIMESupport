@@ -130,6 +130,7 @@ namespace NeosBetterIMESupport
             static void HideKeyboard_Postfix()
             {
                 _editingText = null;
+                _isTypingUnsettled = false;
             }
         }
 
