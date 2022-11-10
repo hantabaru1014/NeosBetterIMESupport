@@ -28,6 +28,7 @@ namespace NeosBetterIMESupport
         {
             _keyboard = Keyboard.current;
             _keyboard.onIMECompositionChange += OnIMECompositionChange;
+            Msg($"Keyboard: {_keyboard}");
 
             var harmony = new Harmony("net.hantabaru1014.NeosBetterIMESupport");
             harmony.PatchAll();
@@ -36,6 +37,7 @@ namespace NeosBetterIMESupport
 
         private void OnIMECompositionChange(IMECompositionString compStr)
         {
+            Msg($"compStr: {compStr}");
             if (_editingText is null) return;
             InsertComposition(compStr.ToString());
         }
@@ -123,6 +125,7 @@ namespace NeosBetterIMESupport
             {
                 //_keyboard?.SetIMECursorPosition(new Vector2(100, 200));
                 _editingText = targetText;
+                Msg($"ShowKeyboard");
             }
 
             [HarmonyPostfix]
