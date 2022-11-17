@@ -16,7 +16,7 @@ namespace NeosBetterIMESupport
     {
         public override string Name => "NeosBetterIMESupport";
         public override string Author => "hantabaru1014";
-        public override string Version => "1.0.0";
+        public override string Version => "1.0.1";
         public override string Link => "https://github.com/hantabaru1014/NeosBetterIMESupport";
 
         private static Keyboard? _keyboard;
