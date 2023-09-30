@@ -1,9 +1,9 @@
-﻿using NeosModLoader;
+﻿using ResoniteModLoader;
 using HarmonyLib;
 using FrooxEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
-using BaseX;
+using Elements.Core;
 using System;
 using System.Reflection;
 using System.Collections.Generic;
@@ -12,11 +12,11 @@ using System.Reflection.Emit;
 
 namespace NeosBetterIMESupport
 {
-    public class NeosBetterIMESupport : NeosMod
+    public class NeosBetterIMESupport : ResoniteMod
     {
         public override string Name => "NeosBetterIMESupport";
         public override string Author => "hantabaru1014";
-        public override string Version => "1.0.1";
+        public override string Version => "2.0.0";
         public override string Link => "https://github.com/hantabaru1014/NeosBetterIMESupport";
 
         private static Keyboard? _keyboard;
@@ -29,7 +29,7 @@ namespace NeosBetterIMESupport
             _keyboard = Keyboard.current;
             _keyboard.onIMECompositionChange += OnIMECompositionChange;
 
-            var harmony = new Harmony("net.hantabaru1014.NeosBetterIMESupport");
+            var harmony = new Harmony("dev.baru.resonite.NeosBetterIMESupport");
             harmony.PatchAll();
             TextEditor_EditCoroutine_Patch.Patch(harmony);
         }
