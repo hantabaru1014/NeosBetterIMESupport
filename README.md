@@ -1,17 +1,15 @@
 # NeosBetterIMESupport
 
-A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that fix issues in IMEs with complex input methods like Japanese.
+**Also supports Resonite!**
+
+A [NeosModLoader](https://github.com/zkxs/NeosModLoader) / [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader) mod that fix issues in IMEs with complex input methods like Japanese.
 
 https://user-images.githubusercontent.com/16133291/200890052-040475d1-109d-49d4-bd29-664d1912e4ee.mp4
 
-At this time, tested only with Win10, Microsoft Japanese IME.
-
 ## For Resonite
-v2.x は[ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader)向けです。  
-このModの名前にNeosとついてしまっていますが、直す気はないです。Resoniteがリリースされて要望を受け付けるようになったら、公式に対応してほしい内容なのでそれが叶うまでの繋ぎとしてこのModをお使いください。
+v2.x が[ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader)向けです。  
 
 v2.x is for [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader).  
-I have no plan to fix the fact that this mod has Neos in its name, and once Resonite is released and starts taking requests, please use this mod as a bridge until that happens, as it is something I would like to see officially addressed.
 
 ## Installation
 1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
