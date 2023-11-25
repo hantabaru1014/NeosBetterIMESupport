@@ -2,13 +2,15 @@
 
 **Also supports Resonite!**
 
-A [NeosModLoader](https://github.com/zkxs/NeosModLoader) / [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader) mod that fix issues in IMEs with complex input methods like Japanese.
+A [NeosModLoader](https://github.com/zkxs/NeosModLoader) / [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader) mod that fix issues in IME with complex input methods like Japanese.
+
+[Related issue](https://github.com/Yellow-Dog-Man/Resonite-Issues/issues/745). You can upvote or comment.
+
+Desktopモードで日本語入力する際に未確定候補がUIX上で見えないのを直すModです。詳しくは下の動画を見てください。
 
 https://user-images.githubusercontent.com/16133291/200890052-040475d1-109d-49d4-bd29-664d1912e4ee.mp4
 
-## For Resonite
-v2.x が[ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader)向けです。  
-
+## For Resonite  
 v2.x is for [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader).  
 
 ## Installation
